@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class LC1657{
+
+    public static void main(String[] args) {
+        // System.out.println(closeStrings("abc", "bca"));
+        // System.out.println(closeStrings("a", "aa"));
+        // System.out.println(closeStrings("cabbba", "abbccc"));
+        System.out.println(closeStrings(
+            "sftcfcfcfffffcsfctttttcticscttcfsccctsfissstfctscfctittfcscccitsscfcfcffsfcccccccfcicstffcscfiffffsffifctfscftfifccficfttcttsccccfffcffcfctccftcsfccfcscciscffscffscccffitciftsfcffctsccscitcffsificticcsicssffftcttfficctitcsffsccffiititfstcfsstfcttcccsfftficsfscccfsitcffccctcssccificcsssfctcffsctcccccccsccticctticcstciftsfftccctffcsiccffifiicttcfftifsstscffccifciccsicfttciffftctcfftsccctistcfccifsccssffcfcftffiicfsstcfccfccccsfccifcftffccctssccsisctcciitciciiffcsisticctcccsscsstfcftctftttcisccsstccctciccifcffffccfcffcscccfffficitcftcfscfttttccssticsftfcctiscfscssscftccisiccctitticisfcfccstscfcfffisccftctfcftcciccffcfccffctsfscfscitffifiscccsittsictfscfcfcccsifsfcccsctffsccsicsftficscsfiiccsfcfcsiifcccccccicfiftscssicccfttstcccfcsicctcciicifcccfftcftittstsctcfsffsitcicscficfccttcsticitciccctsciccstsctftcctsscctsfscicfcitciffcfcctcccftsiccscftcfcicfstsisfcscftctcictfcscsffctttiictcttssftscticftfscfsffcfscictctcsfcifftfiiitcficccfscstcstttscsiccticfcficccfcicttfficfctcicfffcsfttstfiitttsifcctcfcssfficfffsitscfcccsctiftitsscticiiftscfisfccccccccfcffccfcttiffsscscccfistccicfccstcicccisfcfcitcccfcfttfstccctfccstsisfcfsctsfscccisftsfsftscctsfssfcctcftcffscfccctfcictfccicfiicfsfccfccccttsicccffccccfctticssfstcccctfftccscfctfftsscscstciftcstscccccsicscsstcfttsfctsccstffffcccccffctcffcsfiisiffcftsstccfcticsicccsscccfsitsiicffcfscficctfcccctcstttcctccficffcccccfsctsctcfttccffccctcfctfscfcissccscfctfcffcccfffsfsficcffcctsfcctsccfcffscccftfttfscfftciictcscftsftttccctcfftccffctccstccffficcftcfccsfcftsfctcfsitcfftitctcffcccsccctfcsctfitcftcfcsftfsfccssctfffcfttffftccccctfcfisfcffccifctcitisfccffsscfccctcsftsisfttcsfffcsisiccscsfftcscccfcfstfcccctficsttfscctftcistcfsicsccttisccffcstcitcscftcsstccccictfftfccsfisttsffssisfsttttscstfccffittfcicicicfscfcficcfscsiffscficcffcccfcsctcctfffscitcccfcctccfccccicsftttffcfsccccctcffttcfcssccftffccccccctiicctcccctctsfffccfcsccftcctfcsiffcttffcfifcfccctftcccsccctcstfcccstsitftcctfctccftfcctittcccfcscffcfsitttctsffsftccifffcccfistffititccfcccccsiscscffcfccfcsfssfttiicfcctsftscccttftfsctfiiststfccsccccfcscscsstcscfcsfccttccttccfcsccccfsfcfcstfccfttciccfcsccscsfctsftsfcscfctctcccssscccsfsccfccftficccffftfftttcscifttcccctisccfftifffscfitfscssccsffttctccctf", 
+            "csctisctsccscciificsiccscfctsfcissfsisfitittcscccifcccsicffcscccccistcccssfsscccssisiitscccsfftstcccsssstfcftssscitcsscciccscfcccicfciticciisssccsccifcicctttiicfsscfffffcfsstfcfcfcccicssccfcccsttccccfscictiicssiscccccsscccfitfscccifffcsscccitccfisftisfccscffciscisscccicfccffcsscsfsficcctiictisiccsiscisscffsissciicfcccccccfiiiscscssfsscfcicititcssssssssicsiiccicticssccccssstfscccscscfsfscscificcsfsssficstccctciiicscicfcsctfsifcccccicsccfcitsssccsicssfsisificstcscccifsifictisscfcciiicfttffscffcfsffcststcicccicicfccfcffscciiissscfciifscsifsctccsfficfcsciiictciccisifcsssssiiiicccsciitffccssssfifftftsccfsictccsicsiccccciscccsifscccfsssiffcctfstfccffsctsiscciscscfftccicccfiffiififtstfsssisfsscctcsttcitsfssisscistscccccifscciciiicfssfscfistftcssccctsfsstctscciicfsicficssicsscsccctsisctfcficftcisffffsssiiitstscsscccsiciscctcsiicsiccscciscfcfsccftstscccsciccistcsctiicsfsctfscitccffcitsticiciicfscsfcctcsctsscccfciiiicsssscsicstiisscttitciiscfstffcciccsiffsctciissfistfcciciicccsffsssfctstffcifscccisffffscccisccfccfccccscccfccsicscscccifcftssssftscicicfccctscstccccicsitsfffstcscsccisifsftccifccftcssicsfisccficsccccccccccssciccsicccfcittccssicstfccssctcfccscscccccicifsitcsccfifsftcsiccsciccccsficscciiscfcscstcciicftstifisfcsicsitcftcsiiftiiffscsticicssctcfcifststccisfctcfsfccssfiicttictcfsffcitccsccccsfscctfcttcsscscctfctsitcisicstfcciiiciscicicffctccficsssiscccfsiscfitsicifcsccicistsffctscccccsscctsiccfiiftcciffscccfcfstfcfscicscccscfccsccscssccssftitsctfctttcitcictstcifscsssstcctcficctsccisstcsittcftctcicfcctitcisssissccscscstsstscccississssfcfccfcissficsffccfcsiffsscfcscsictfcsficiccccsfccfcfsctitcciiiifstisttcfisciscicstcifccfsiitsfcifsfcciiicttsctsticsscifcccsccscccsiccsiccffccscccisisssfsfscccfisccccfciscsffiffcicicccffiitcsscfcfcicccfccfcscccssiccciccfccscfcccsccccscficfffcccfsscsfstcscitiscictcsfcstfcccsfifcsicsicsscsccsfcsfsccicssfsfcciciscfccccscsfsssfccififcicfcttccsiiccicfifstftiffsciitictctciciicctitisiisffccfccsiticccicfcstfccsicccscccfticssttcccfcsccctfscicicisicsctfscfcfsstccsscificsisstscfcctfffsscsscficcsscsfssccficitfccsciiisictiiccftcccfcctfssccifssccctccscsfctccicfcissscctscccccfsiiiccsisticccsciscificsfsffticcscficsicsffcfttfscsfsficsicitssiffcsscfisitcctctttctc"));
+    }
+
+    public static boolean closeStrings(String word1, String word2) {
+        String[] w1Arr = getSignMap(word1);
+        String[] w2Arr = getSignMap(word2);
+        return w1Arr[0].equals(w2Arr[0]) &&  w1Arr[1].equals(w2Arr[1]);
+    }    
+
+    private static String[] getSignMap(String s){
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        for( Character c : s.toCharArray()){
+            map.put(c, map.getOrDefault(c, 0)+1);
+        }
+
+        List<Character> charList = new ArrayList<Character>(map.keySet());
+        Collections.sort(charList);
+        String charListString = charList.toString();
+
+        List<Integer> freqList = new ArrayList<Integer>();
+        map.values().stream().forEach(freqList::add);
+        Collections.sort(freqList);        
+        String freqListString = freqList.toString();
+
+        String[] retArray = new String[]{charListString, freqListString};
+        return retArray;
+    }
+
+}
