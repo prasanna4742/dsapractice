@@ -21,25 +21,41 @@ public class LC1026 {
         
     }
 
-    public int maxAncestorDiff(TreeNode root) {
-                
+    public int maxAncestorDiff(TreeNode root) {                
         List<Integer> ancestors = new ArrayList<Integer>();
-        Set<Integer> differences = new HashSet<Integer>();
-        maxAncestorDiff(root, ancestors, differences);
-        return differences.stream().mapToInt(Integer::intValue).max().getAsInt();
+        ancestors.add(root.val);
+        // Set<Integer> differences = new HashSet<Integer>();
+        // maxAncestorDiff(root, ancestors, differences);
+        // return differences.stream().mapToInt(Integer::intValue).max().getAsInt();
+        return maxAncestorDiff(root, ancestors, 0);
     }
 
-    private void maxAncestorDiff(TreeNode root, List<Integer> ancestors, Set<Integer> differences) {
+    // private void maxAncestorDiff(TreeNode root, List<Integer> ancestors, Set<Integer> differences) {
+    //     if( root == null){
+    //         return;
+    //     }
+    //     for(int a : ancestors){
+    //         differences.add(Math.abs(root.val-a));
+    //     }
+    //     ancestors.add(root.val);
+
+    //     maxAncestorDiff(root.left, ancestors, differences);
+    //     maxAncestorDiff(root.right, ancestors, differences);
+    //     ancestors.remove(ancestors.size()-1);
+    // }    
+
+    private int maxAncestorDiff(TreeNode root, List<Integer> ancestors, int maxDiff) {
         if( root == null){
-            return;
+            return maxDiff;
         }
-        for(int a : ancestors){
-            differences.add(Math.abs(root.val-a));
-        }
+        int diff = ancestors.stream().mapToInt(x -> Math.abs(x - root.val)).max().getAsInt();
+        maxDiff = (diff > maxDiff)?diff:maxDiff;
         ancestors.add(root.val);
 
-        maxAncestorDiff(root.left, ancestors, differences);
-        maxAncestorDiff(root.right, ancestors, differences);
+        maxDiff = maxAncestorDiff(root.left, ancestors, maxDiff);
+        maxDiff = maxAncestorDiff(root.right, ancestors, maxDiff);
         ancestors.remove(ancestors.size()-1);
+        return maxDiff;
     }    
+
 }
