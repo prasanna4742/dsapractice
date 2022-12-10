@@ -22,19 +22,10 @@ public class LC1339 {
         long rootVal = traverseTree(root, subTreeValues);
         subTreeValues.remove(subTreeValues.size()-1);
 
-        List<List<Long>> multiPairs= new ArrayList<List<Long>>();
         Long retVal = subTreeValues.stream()
             .mapToLong(x -> (rootVal-x)*x)
             .max()
             .getAsLong();
-        // forEach(x -> {
-        //     List<Long> pair = new ArrayList<Long>();
-        //     pair.add(x);
-        //     pair.add(rootVal -x);
-        //     multiPairs.add(pair);
-        // }
-        // );
-        System.out.println();
         return (int)(retVal%(Math.pow(10, 9)+7));
     }
 
