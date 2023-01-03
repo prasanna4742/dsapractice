@@ -17,6 +17,7 @@ public class LC944 {
                 grid[i][j] = s.charAt(j);
             }
         }
+        //Actually we do not need grid and whole thing can be done in below loop.
         for(int col=0; col<collen; col++){
             for(int row=1; row<rowlen; row++){
                 if(grid[row][col] < grid[row-1][col]){
@@ -25,6 +26,6 @@ public class LC944 {
                 }
             }
         }
-        return ret;
+        return ret;        
     }
 }
