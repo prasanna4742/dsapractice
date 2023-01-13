@@ -9,7 +9,7 @@ public class LC2246 {
     }
     
 
-    public static int longestPath(int[] parent, String s) {
+    public static int longestPath( int[] parent, String s) {
 
         if(parent.length == 1){
             return 1;
