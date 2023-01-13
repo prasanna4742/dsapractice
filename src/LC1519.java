@@ -1,13 +1,15 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class LC1519 {
     public static void main(String[] args) {
-        // countSubTrees(7, new int[][]{{0,1},{0,2},{1,4},{1,5},{2,3},{2,6}}, "abaedcd");
+        countSubTrees(7, new int[][]{{0,1},{0,2},{1,4},{1,5},{2,3},{2,6}}, "abaedcd");
         // countSubTrees(4, new int[][]{{0,1},{1,2},{0,3}}, "bbbb");
-        countSubTrees(4, new int[][]{{0,2},{0,3},{1,2}}, "aeed");
+        // countSubTrees(4, new int[][]{{0,2},{0,3},{1,2}}, "aeed");
 
     }
 
@@ -24,28 +26,48 @@ public class LC1519 {
             graph[node2].add(node1);
         }
         int[] retArray = new int[n];
-        traverseWithLabels(0, graph, labels, new HashSet<Integer>(), retArray);
+        // traverseWithLabels(0, graph, labels, new HashSet<Integer>(), retArray);
+        traverseWithLabels(0, graph, labels.toCharArray(), new HashSet<Integer>(), retArray);
         return retArray;
     }
 
-    ///Works but timelimit exceeded
-    private static void traverseWithLabels(int currNode, List<Integer>[] graph, String labels, Set<Integer> path, int[] retArray) {
-
-        System.out.println(currNode);
-        retArray[currNode]++;
-        for(int parent : path){
-            if(labels.charAt(parent) == labels.charAt(currNode)){
-                retArray[parent]++;
-            }
-        }
+    private static int[] traverseWithLabels(int currNode, List<Integer>[] graph, char[] labels, Set<Integer> path, int[] retArray) {        
         path.add(currNode);
 
+        int[] localArr = new int[26];
         for(int i : graph[currNode]){
             if(path.contains(i)){
                 continue;
             }
-            traverseWithLabels(i, graph, labels, path, retArray);
+            int [] childArr = traverseWithLabels(i, graph, labels, path, retArray);
+            for(int j=0; j<26; j++){
+                localArr[j] += childArr[j];
+            }
         }
+        localArr[labels[currNode]-'a']++;
+        retArray[currNode]=localArr[labels[currNode]-'a'];
         path.remove(currNode);
+
+        return localArr;
     }
+    ///Works but timelimit exceeded
+    // private static void traverseWithLabels(int currNode, List<Integer>[] graph, String labels, Set<Integer> path, int[] retArray) {
+
+    //     System.out.println(currNode);
+    //     retArray[currNode]++;
+    //     for(int parent : path){
+    //         if(labels.charAt(parent) == labels.charAt(currNode)){
+    //             retArray[parent]++;
+    //         }
+    //     }
+    //     path.add(currNode);
+
+    //     for(int i : graph[currNode]){
+    //         if(path.contains(i)){
+    //             continue;
+    //         }
+    //         traverseWithLabels(i, graph, labels, path, retArray);
+    //     }
+    //     path.remove(currNode);
+    // }
 }
