@@ -1,0 +1,910 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoLL",
+            "request": "launch",
+            "mainClass": "AddTwoLL",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnagramGrouping",
+            "request": "launch",
+            "mainClass": "AnagramGrouping",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch App1",
+            "request": "launch",
+            "mainClass": "App1",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayEQPartition",
+            "request": "launch",
+            "mainClass": "ArrayEQPartition",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayProduct",
+            "request": "launch",
+            "mainClass": "ArrayProduct",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Atoi",
+            "request": "launch",
+            "mainClass": "Atoi",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BFS",
+            "request": "launch",
+            "mainClass": "BFS",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BPPotentialProblem",
+            "request": "launch",
+            "mainClass": "BPPotentialProblem",
+            "projectName": "jaba-sand_61204b0a",
+            "externalConsole": true        },
+        {
+            "type": "java",
+            "name": "Launch BestSum",
+            "request": "launch",
+            "mainClass": "BestSum",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinToDecimal",
+            "request": "launch",
+            "mainClass": "BinToDecimal",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch BraceCheck",
+            "request": "launch",
+            "mainClass": "BraceCheck",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Build",
+            "request": "launch",
+            "mainClass": "Build",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CanConstruct",
+            "request": "launch",
+            "mainClass": "CanConstruct",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CanSum",
+            "request": "launch",
+            "mainClass": "CanSum",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbStair",
+            "request": "launch",
+            "mainClass": "ClimbStair",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CodalityT1",
+            "request": "launch",
+            "mainClass": "CodalityT1",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CodalityT2",
+            "request": "launch",
+            "mainClass": "CodalityT2",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CodalityT3",
+            "request": "launch",
+            "mainClass": "CodalityT3",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Combination",
+            "request": "launch",
+            "mainClass": "Combination",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountAndSay",
+            "request": "launch",
+            "mainClass": "CountAndSay",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoupleSum",
+            "request": "launch",
+            "mainClass": "CoupleSum",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DCombination",
+            "request": "launch",
+            "mainClass": "DCombination",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fib",
+            "request": "launch",
+            "mainClass": "Fib",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindDup",
+            "request": "launch",
+            "mainClass": "FindDup",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch GasStation",
+            "request": "launch",
+            "mainClass": "GasStation",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenParanthesis",
+            "request": "launch",
+            "mainClass": "GenParanthesis",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloDocker",
+            "request": "launch",
+            "mainClass": "HelloDocker",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntToRoman",
+            "request": "launch",
+            "mainClass": "IntToRoman",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Island",
+            "request": "launch",
+            "mainClass": "Island",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC100",
+            "request": "launch",
+            "mainClass": "LC100",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1026",
+            "request": "launch",
+            "mainClass": "LC1026",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC11",
+            "request": "launch",
+            "mainClass": "LC11",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1143",
+            "request": "launch",
+            "mainClass": "LC1143",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC118",
+            "request": "launch",
+            "mainClass": "LC118",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1207",
+            "request": "launch",
+            "mainClass": "LC1207",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC121",
+            "request": "launch",
+            "mainClass": "LC121",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC13",
+            "request": "launch",
+            "mainClass": "LC13",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1339",
+            "request": "launch",
+            "mainClass": "LC1339",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1443",
+            "request": "launch",
+            "mainClass": "LC1443",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC15",
+            "request": "launch",
+            "mainClass": "LC15",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC150",
+            "request": "launch",
+            "mainClass": "LC150",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1519",
+            "request": "launch",
+            "mainClass": "LC1519",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1657",
+            "request": "launch",
+            "mainClass": "LC1657",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC17",
+            "request": "launch",
+            "mainClass": "LC17",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1704",
+            "request": "launch",
+            "mainClass": "LC1704",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1833",
+            "request": "launch",
+            "mainClass": "LC1833",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1834",
+            "request": "launch",
+            "mainClass": "LC1834",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC19",
+            "request": "launch",
+            "mainClass": "LC19",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1962",
+            "request": "launch",
+            "mainClass": "LC1962",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC1971",
+            "request": "launch",
+            "mainClass": "LC1971",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC198",
+            "request": "launch",
+            "mainClass": "LC198",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC209",
+            "request": "launch",
+            "mainClass": "LC209",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC2129",
+            "request": "launch",
+            "mainClass": "LC2129",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC2225",
+            "request": "launch",
+            "mainClass": "LC2225",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC2244",
+            "request": "launch",
+            "mainClass": "LC2244",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC2246",
+            "request": "launch",
+            "mainClass": "LC2246",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC2256",
+            "request": "launch",
+            "mainClass": "LC2256",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC229",
+            "request": "launch",
+            "mainClass": "LC229",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC232",
+            "request": "launch",
+            "mainClass": "LC232",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC24",
+            "request": "launch",
+            "mainClass": "LC24",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC26",
+            "request": "launch",
+            "mainClass": "LC26",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC263",
+            "request": "launch",
+            "mainClass": "LC263",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC27",
+            "request": "launch",
+            "mainClass": "LC27",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC279",
+            "request": "launch",
+            "mainClass": "LC279",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC290",
+            "request": "launch",
+            "mainClass": "LC290",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC300",
+            "request": "launch",
+            "mainClass": "LC300",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC31",
+            "request": "launch",
+            "mainClass": "LC31",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC328",
+            "request": "launch",
+            "mainClass": "LC328",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC34",
+            "request": "launch",
+            "mainClass": "LC34",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC397",
+            "request": "launch",
+            "mainClass": "LC397",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC402",
+            "request": "launch",
+            "mainClass": "LC402",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC423",
+            "request": "launch",
+            "mainClass": "LC423",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC451",
+            "request": "launch",
+            "mainClass": "LC451",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC452",
+            "request": "launch",
+            "mainClass": "LC452",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC491",
+            "request": "launch",
+            "mainClass": "LC491",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC520",
+            "request": "launch",
+            "mainClass": "LC520",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC56",
+            "request": "launch",
+            "mainClass": "LC56",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC58",
+            "request": "launch",
+            "mainClass": "LC58",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC60",
+            "request": "launch",
+            "mainClass": "LC60",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC63",
+            "request": "launch",
+            "mainClass": "LC63",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC66",
+            "request": "launch",
+            "mainClass": "LC66",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC67",
+            "request": "launch",
+            "mainClass": "LC67",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC71",
+            "request": "launch",
+            "mainClass": "LC71",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC739",
+            "request": "launch",
+            "mainClass": "LC739",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC79",
+            "request": "launch",
+            "mainClass": "LC79",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC797",
+            "request": "launch",
+            "mainClass": "LC797",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC80",
+            "request": "launch",
+            "mainClass": "LC80",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC841",
+            "request": "launch",
+            "mainClass": "LC841",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC872",
+            "request": "launch",
+            "mainClass": "LC872",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC876",
+            "request": "launch",
+            "mainClass": "LC876",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC88",
+            "request": "launch",
+            "mainClass": "LC88",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC886",
+            "request": "launch",
+            "mainClass": "LC886",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC938",
+            "request": "launch",
+            "mainClass": "LC938",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC944",
+            "request": "launch",
+            "mainClass": "LC944",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LC945",
+            "request": "launch",
+            "mainClass": "LC945",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LCABinTree",
+            "request": "launch",
+            "mainClass": "LCABinTree",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargeSubArr",
+            "request": "launch",
+            "mainClass": "LargeSubArr",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListOps",
+            "request": "launch",
+            "mainClass": "ListOps",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongPalin",
+            "request": "launch",
+            "mainClass": "LongPalin",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongS",
+            "request": "launch",
+            "mainClass": "LongS",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MNode",
+            "request": "launch",
+            "mainClass": "MNode",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedList",
+            "request": "launch",
+            "mainClass": "MergeSortedList",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MissingPositive",
+            "request": "launch",
+            "mainClass": "MissingPositive",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NeedleInHay",
+            "request": "launch",
+            "mainClass": "NeedleInHay",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberToText",
+            "request": "launch",
+            "mainClass": "NumberToText",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEven",
+            "request": "launch",
+            "mainClass": "OddEven",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeNumber",
+            "request": "launch",
+            "mainClass": "PalindromeNumber",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pascal",
+            "request": "launch",
+            "mainClass": "Pascal",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfSquare",
+            "request": "launch",
+            "mainClass": "PerfSquare",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pow",
+            "request": "launch",
+            "mainClass": "Pow",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomizedSet",
+            "request": "launch",
+            "mainClass": "RandomizedSet",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ransom",
+            "request": "launch",
+            "mainClass": "Ransom",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectArea",
+            "request": "launch",
+            "mainClass": "RectArea",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseWords",
+            "request": "launch",
+            "mainClass": "ReverseWords",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RevrseInt",
+            "request": "launch",
+            "mainClass": "RevrseInt",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rotate",
+            "request": "launch",
+            "mainClass": "Rotate",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "SearchInsertPosition",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortColor",
+            "request": "launch",
+            "mainClass": "SortColor",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stock",
+            "request": "launch",
+            "mainClass": "Stock",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringPerm",
+            "request": "launch",
+            "mainClass": "StringPerm",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubArraySum",
+            "request": "launch",
+            "mainClass": "SubArraySum",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TTLPriorityLRUCache",
+            "request": "launch",
+            "mainClass": "TTLPriorityLRUCache",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tarana",
+            "request": "launch",
+            "mainClass": "Tarana",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TraverseTree",
+            "request": "launch",
+            "mainClass": "TraverseTree",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordBreak",
+            "request": "launch",
+            "mainClass": "WordBreak",
+            "projectName": "jaba-sand_61204b0a"
+        }
+    ]
+}
