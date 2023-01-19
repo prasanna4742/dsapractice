@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LC57",
+            "request": "launch",
+            "mainClass": "LC57",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -72,7 +79,8 @@
             "request": "launch",
             "mainClass": "BPPotentialProblem",
             "projectName": "jaba-sand_61204b0a",
-            "externalConsole": true        },
+            "externalConsole": true
+        },
         {
             "type": "java",
             "name": "Launch BestSum",
