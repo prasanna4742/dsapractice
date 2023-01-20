@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LC926",
+            "request": "launch",
+            "mainClass": "LC926",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
             "name": "Launch LC57",
             "request": "launch",
             "mainClass": "LC57",
