@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LC93",
+            "request": "launch",
+            "mainClass": "LC93",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntDigitSum",
+            "request": "launch",
+            "mainClass": "udemydp1.IntDigitSum",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckSeq",
+            "request": "launch",
+            "mainClass": "udemydp1.CheckSeq",
+            "projectName": "jaba-sand_61204b0a"
+        },
+        {
+            "type": "java",
             "name": "Launch LC926",
             "request": "launch",
             "mainClass": "LC926",
