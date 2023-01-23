@@ -59,7 +59,7 @@ public class LC131 {
 
         for(int i=start; i<=s.length(); i++){
             String part1 = s.substring(0, i);
-            if(!checkPalindrone(part1)){
+            if(part1.length()> 1 && !checkPalindrone(part1)){
                 continue;
             }
             partial.add(part1);
@@ -67,4 +67,6 @@ public class LC131 {
             partial.remove(partial.size()-1);
         }
     }    
+
+    
 }
